@@ -26,9 +26,9 @@ button
 
 .header
 {
-    margin-top: 40px;
-    margin-left: 40px;
-    margin-right: 20px;
+    /*0 es por defecto*/
+    margin: 40px 20px 0px 40px;
+
     font-size: 0;
     line-height:45px;
 }
@@ -45,6 +45,8 @@ li{
     vertical-align: middle;
     height: 100%;
     line-height:45px;
+    font-family: sans-serif;
+    padding-top:45px;
 }
 
 .logo{
@@ -54,14 +56,34 @@ li{
 
 .navbar
 {
-    width: 70%;
-    text-align: center;
-    color: green;
+    width: auto;
+    text-align: left;
+    color: rgb(0, 2, 128);
 }
 
 .actions
 {
-    width: 15%;
-    text-align: right;
+    width: auto;
+    text-align: left;
     font-size: 14px;
+    margin: auto 10px;
+}
+
+.lista > *
+{
+    margin: auto 25px;
+    color:#025157;
+}
+
+.actions > a
+{
+    color: #67b54b;
+}
+.actions > button
+{
+    color: #fff;
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border: 0;
+    border-radius: 5px;
 }
